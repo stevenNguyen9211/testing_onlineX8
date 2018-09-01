@@ -13,8 +13,8 @@ public class Start_test {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com/");
-		Thread.sleep(5000);
+		driver.get("https://www.accorhotels.com/");
+		Thread.sleep(10000);
 		String getTitlePage = driver.getTitle();
 		System.out.println(getTitlePage);
 		driver.quit();
