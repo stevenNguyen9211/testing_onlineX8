@@ -14,7 +14,7 @@ public class Start_test {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		String getTitlePage = driver.getTitle();
 		System.out.println(getTitlePage);
 		driver.quit();
